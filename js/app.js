@@ -10,7 +10,7 @@ let egresos = [
     new Egreso('Ropa', 800)
 ];
 
-// Funcion cargar cabecero
+// Funcion cargarCabecero
 
 const cargarCabecero = () => {
     const porcentajeEgreso = totalEgresos() / totalIngresos();
